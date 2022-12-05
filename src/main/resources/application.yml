@@ -15,11 +15,15 @@ spring:
           google:
             client-id: 596950358351-5016avddl8fq2n4toiqirm1a2akk1pth.apps.googleusercontent.com
             client-secret: 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
+#  datasource:
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+#    url: jdbc:mysql://127.0.0.1:3306/project?serverTimezone=Asia/Seoul
+#    username: project
+#    password: 1234
   datasource:
-    driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/project?serverTimezone=Asia/Seoul
-    username: project
-    password: 1234
+    url: jdbc:mysql://127.0.0.1:3306/j211_schema
+    username: user01
+    password: user01
 
   mvc:
     view:
@@ -36,3 +40,4 @@ spring:
 
 jwt:
   secret: 12345678901234567890123456789012
+
