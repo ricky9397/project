@@ -1,5 +1,5 @@
 # 어플리케이션 이름
-export APP=j211
+export APP=ricky
 
 # 스프링부트에서 사용하는 포트
 # .yml 의 server.port 정보와 동일
@@ -8,8 +8,8 @@ export SPRINGBOOT_PORT=8080
 # DB_RUN.sh 에서 사용 되는 DB 기본 정보
 # .yml 의 spring.database 정보와 동일
 export MYSQL_DATABASE=${APP}_schema
-export MYSQL_USER=user01
-export MYSQL_PASSWORD=user01
+export MYSQL_USER=ricky
+export MYSQL_PASSWORD=1234
 export DOCKER_DB_PORT=3306
 export MYSQL_ROOT_PASSWORD=password
 

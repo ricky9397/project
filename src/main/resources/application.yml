@@ -21,9 +21,9 @@ spring:
 #    username: project
 #    password: 1234
   datasource:
-    url: jdbc:mysql://127.0.0.1:3306/j211_schema
-    username: user01
-    password: user01
+    url: jdbc:mysql://127.0.0.1:3306/ricky_schema
+    username: ricky
+    password: 1234
 
   mvc:
     view:
