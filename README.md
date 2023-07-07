@@ -16,7 +16,7 @@
 - API -> 맵, 로그인 결제, SMTP, 문자발송 등등 구현
 - 스프링클라우드 + 리눅스 + Doker + Jenkese 배포 // 
 - MySql
-
+- redis
 
 ## 서버
 - 현재 Oracle VM VirtualBox 사용 
